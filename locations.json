@@ -1,0 +1,382 @@
+[{
+      "code": "AHM",
+      "name": "ESSIL Ahmedabad",
+      "address": "B-201, City Pride, Mithakhali 6 Road, Navarangpura",
+      "locality": "Ahmedabad",
+      "state": "Gujarat",      
+      "postalcode": "380006",
+      "primaryphone": "079-26460449",
+      "additionalphones": "079-26561927",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "AND",
+      "name": "ESSIL Andheri",
+      "address": "Unit 8-9-10-11-12, Ground Floor, B Wing, Classique Centre, 26 Mahal Industrial Estate, Off Mahakali Caves Road, Andheri East",
+      "locality": "Mumbai",
+      "state": "Maharashtra",      
+      "postalcode": "400093",
+      "primaryphone": "022-61555301",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "BAR",
+      "name": "ESSIL Baroda",
+      "address": "No. 1, Yogiraj Apartment 45/B, Nutan Bharat Society, Alkapuri",
+      "locality": "Vadodara",
+      "state": "Gujarat",      
+      "postalcode": "390007",
+      "primaryphone": "0265-6900152",
+      "additionalphones": "0265-3066186",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "BHU",
+      "name": "ESSIL Bhubaneshwar",
+      "address": "A/27, 1st floor, Saheed NAgar",
+      "locality": "Bhubaneshwar",
+      "state": "Odisha",
+      
+      "postalcode": "751007",
+      "primaryphone": "0674 254 8540",
+      "additionalphones": "0674 253 2342, 0674 254 8492",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "BLR",
+      "name": "ESSIL Bengaluru",
+      "address": "Queens Corner",
+      "locality": "Bengaluru",
+      "state": "Karnataka",
+      
+      "postalcode": "560052",
+      "primaryphone": "080 3055 4525",
+      "additionalphones": "080 3055 4510",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "BPL",
+      "name": "ESSIL Bhopal",
+      "address": "IInd Floor Plot No-51 Near Hotel Sangat Plaza, Zone-I, Maharana Pratap Nagar",
+      "locality": "Bhopal",
+      "state": "Madhya Pradesh",
+      
+      "postalcode": "462011",
+      "primaryphone": "0755 305 3301",
+      "additionalphones": "0755 305 3302",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "CAL",
+      "name": "ESSIL Kolkata",
+      "address": "Shop No. P-89CIT Road, Puddapukur, Entally",
+      "locality": "Kolkata",
+      "state": "West Bengal",
+      
+      "postalcode": "700014",
+      "primaryphone": "033 4032 5606",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "CAT",
+      "name": "ESSIL Calicut",
+      "address": "2nd Floor, 4th Gate Building, 4th Railway Gate, P.T.Usha Road",
+      "locality": "Kozhikode",
+      "state": "Kerala",
+      
+      "postalcode": "673032",
+      "primaryphone": "0495 302 3900",
+      "additionalphones": "0495 302 3901, 0495 302 3902, 0495 302 3903, 0495 302 3904",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "CBE",
+      "name": "ESSIL Coimbatore",
+      "address": "No.94A & 95, Prasad Chambers, East Arokiasamy Road, R.S.Puram",
+      "locality": "Coimbatore",
+      "state": "Tamil Nadu",
+      
+      "postalcode": "641002",
+      "primaryphone": "0422 308 6300",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "CHD",
+      "name": "ESSIL Chandigarh",
+      "address": "SCO 5, 1st Floor Sector 20-D",
+      "locality": "Chandigarh",
+      "state": "Chandigarh",
+      
+      "postalcode": "160020",
+      "primaryphone": "0172 302 3003",
+      "additionalphones": "0172 302 3001, 0172 302 3007",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "COC",
+      "name": "ESSIL Cochin",
+      "address": "Door No 42/2152 , 1st Floor,Papali Chambers, Tatapuram Sukumaran Road",
+      "locality": "Cochin",
+      "state": "Kerala",
+      
+      "postalcode": "682018",
+      "primaryphone": "0484 395 3201",
+      "additionalphones": "0484 395 3200",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "COR",
+      "name": "ESSIL Chennai",
+      "address": "SPL Guindy House95, Anna Salai, Guindy",
+      "locality": "Chennai",
+      "state": "Tamil Nadu",
+      
+      "postalcode": "600032",
+      "primaryphone": "044 3028 7901",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "DEL",
+      "name": "ESSIL New Delhi",
+      "address": "E- 48/4, First Floor, OKHLA Industrial Area Phase- II",
+      "locality": "New Delhi",
+      "state": "Delhi",
+      
+      "postalcode": "110020",
+      "primaryphone": "011 4657 5100",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "DUN",
+      "name": "ESSIL Dehradun",
+      "address": "456&21, Tilak Complex, Tilak Road",
+      "locality": "Dehradun",
+      "state": "Uttarakhand",
+      
+      "postalcode": "248001",
+      "primaryphone": "0135 272 7797",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "GOA",
+      "name": "ESSIL Panjim",
+      "address": "NO. 301, 3rd FLOOR, CITI CENTRE PATTO PLAZA",
+      "locality": "Panjim",
+      "state": "Goa",
+      
+      "postalcode": "403001",
+      "primaryphone": "0832 663 4501",
+      "additionalphones": "0832 663 4502",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "GUR",
+      "name": "ESSIL Gurgaon",
+      "address": "M9 Block M, Ground Floor , OLD DLF Colony, Sector 14",
+      "locality": "Gurgaon",
+      "state": "Haryana",
+      
+      "postalcode": "122001",
+      "primaryphone": "0124 222 2898",
+      "additionalphones": "0124 438 1385",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "GWI",
+      "name": "ESSIL Guwahati",
+      "address": "Ashram Road, Ulubari Chariali Kasturba Nagar, Sarania Hills",
+      "locality": "Guwahati",
+      "state": "Assam",
+      
+      "postalcode": "781007",
+      "primaryphone": "0361 245 0611",
+      "additionalphones": "0361 245 0612",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "HUB",
+      "name": "ESSIL Hubli",
+      "address": "Ground Floor, Diamond Corner, Opp. Sawai Gandhrava Hall, Deshpande Nagar, Vidya Nagar",
+      "locality": "Hubli",
+      "state": "Karnataka",
+      
+      "postalcode": "580029",
+      "primaryphone": "0836 221 3755",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "HYD",
+      "name": "ESSIL Hyderabad",
+      "address": "G.S Mall, F-2 & F2A ,First Floor, Near Rajiv Gandhi Statue, Somajiguda",
+      "locality": "Hyderabad",
+      "state": "Telangana",
+      
+      "postalcode": "500082",
+      "primaryphone": "040 3047 1802",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "JAI",
+      "name": "ESSIL Jaipur",
+      "address": "F-46 B, First Floor, Ramesh Marg, C Scheme",
+      "locality": "Jaipur",
+      "state": "Rajasthan",
+      
+      "postalcode": "302001",
+      "primaryphone": "0141 305 5700",
+      "additionalphones": "0141 305 5709",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "KAN",
+      "name": "ESSIL Kanpur",
+      "address": "112/8, Mall Rd, Benajhabar Main Road, Opposite Sachiv Niwas, Swroop Nagar, Arya Nagar",
+      "locality": "Kanpur",
+      "state": "Uttar Pradesh",
+      
+      "postalcode": "208001",
+      "primaryphone": "093079 82922",
+      "additionalphones": "0512 306 2801",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "LUD",
+      "name": "ESSIL Ludhiana",
+      "address": "No. 3, First Floor, Sheetal Arcade, Pakhowal Road, Shakti Nagar, Near Dr Vishwanath Sood, Green Field, Gurdev Nagar",
+      "locality": "Ludhiana",
+      "state": "Punjab",
+      
+      "postalcode": "141002",
+      "primaryphone": "0161 392 2404",
+      "additionalphones": "0161 392 2400, 0161 392 2401, 0161 392 2402, +971 600 525559, 093169 03168",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "LUK",
+      "name": "ESSIL Lucknow",
+      "address": "18 Madan Mohan Malviya Marg, Gokhle Marg, Pandit Madanmohan Malaviya Road, Civil Lines",
+      "locality": "Lucknow",
+      "state": "Uttar Pradesh",
+      
+      "postalcode": "226001",
+      "primaryphone": "0522 220 6715",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "MDU",
+      "name": "ESSIL Madurai",
+      "address": "#40, Maniram Complex, Kuruvikaran Salai, Anna Nagar",
+      "locality": "Madurai",
+      "state": "Tamil Nadu",
+      
+      "postalcode": "625020",
+      "primaryphone": "0452 439 2007",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "NSK",
+      "name": "ESSIL Nashik",
+      "address": "Ground Floor, Hall No.2, Plot No.33, Krushi Nagar, College Road",
+      "locality": "Nashik",
+      "state": "Maharashtra",
+      
+      "postalcode": "422005",
+      "primaryphone": "0253 231 0177",
+      "additionalphones": "0253 302 3100",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "PAT",
+      "name": "ESSIL Patna",
+      "address": "6A, Commercial Building, North Side of Children Park, S.K.Puri, Boring Road",
+      "locality": "Patna",
+      "state": "Bihar",
+      
+      "postalcode": "800001",
+      "primaryphone": "0612 321 1690",
+      "additionalphones": "0612 254 0390, 0612 254 0389",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "PUN",
+      "name": "ESSIL Pune",
+      "address": "No.201,202,203 & 206, Sheetal Plaza, 2nd Floor,CST No.1125, Final plot ,No.499, Off F C Road of Model Colony, Next To The Ambassador Hotel,Model Colony, Shivaji Nagar",
+      "locality": "Pune",
+      "state": "Maharashtra",
+      
+      "postalcode": "411016",
+      "primaryphone": "020 3028 7111",
+      "additionalphones": "020 3028 7112",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "SUR",
+      "name": "ESSIL Surat",
+      "address": "Office No. M/20 to 23, Shreenath Complex,Opposite Jivan Jyot HONDA Showroom,Udhna Sachin Road, Surat - 394210 Gujrat",
+      "locality": "Surat",
+      "state": "Gujarat",
+      
+      "postalcode": "395002",
+      "primaryphone": "0261 227 2569",
+      "additionalphones": "0261 227 2572, 0261 227 2571",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "TRY",
+      "name": "ESSIL Tiruchirapalli",
+      "address": "C87, Nagappa Complex, NEE Sasthri Road, Thillai Nagar",
+      "locality": "Tiruchirapalli",
+      "state": "Tamil Nadu",
+      
+      "postalcode": "620018",
+      "primaryphone": "0431 405 1630",
+      "additionalphones": "0431 454 2442, 0431 401 1333",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "TVM",
+      "name": "ESSIL Thiruvananthapuram",
+      "address": "TC 15/1805(3), 1st Floor, Mahesh Estates, Nandavanam, Vazhuthacaud",
+      "locality": "Thiruvananthapuram",
+      "state": "Kerala",
+      
+      "postalcode": "695014",
+      "primaryphone": "0471 306 2001",
+      "additionalphones": "0471 306 2005",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "VAR",
+      "name": "ESSIL Varanasi",
+      "address": "D58/12-86-A, Sonia Road, Sigra",
+      "locality": "varanasi",
+      "state": "Uttar Pradesh",
+      
+      "postalcode": "221010",
+      "primaryphone": "0542 222 7582",
+      "additionalphones": "0542 222 7583",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    },
+    {
+      "code": "VIZ",
+      "name": "ESSIL Vishakhapatnam",
+      "address": "Flat No.103, 1st Floor, Medicherla Tower, Near Diamond Park",
+      "locality": "Vishakhapatnam",
+      "state": "Andhra Pradesh",
+      
+      "postalcode": "530016",
+      "primaryphone": "089125 67881",
+      "additionalphones": "",
+      "website": "<a href='http://ensureservices.in' class='material-icons'>link</a>"
+    }
+  ]
