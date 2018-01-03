@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+
+<body class='mdc-typography'>
+
+    <table id="mytable" class="mdc-table">
+        <thead>
+            <tr>
+
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan=11 id='buttons'>
+
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+<script>
+    // (function () {
+
+    const FILENAME = 'locations2.json';
+
+    var app = {
+        container: document.getElementById('mytable'),
+        recordsPerPage: 5,
+        paging: true,
+        ordering: true,
+        info: true,
+        order: [
+            [3, 'desc']
+        ],
+        columnDefs: [{
+            targets: [2],
+            visible: false,
+            searchable: false,
+        }]
+    };
+    app.loadJSON = function (url, callback) {
+        var htr = new XMLHttpRequest();
+        htr.overrideMimeType('application/JSON');
+        htr.open('GET', url, true);
+        htr.onreadystatechange = function () {
+            if (htr.readyState === 4 && htr.status == '200') {
+                callback(htr.responseText);
+            }
+        }
+        htr.send(null);
+    }
+
+    app.names = app.loadJSON(FILENAME, function (response) {
+
+        var names = JSON.parse(response);
+        app.addTableRows(names, "#mytable", app.recordsPerPage);
+
+        var pageCount = Math.ceil(names.length / app.recordsPerPage);
+        console.log(pageCount);
+
+        for (var i = 1; i <= pageCount; i++) {
+
+            var button = document.createElement('input');
+            button.type = 'button';
+            button.value = i;
+            button.id = 'id' + i;
+            button.addEventListener('click', function (evet) {
+                evet.preventDefault();
+                var page = evet.target.value;
+                console.log(page);
+                app.getData(names, page);
+            });
+            document.getElementById('buttons').appendChild(button);
+        }
+
+    });
+
+    app.getData = function (names, page) {
+
+        var startRecord = ((app.recordsPerPage * page) - app.recordsPerPage);
+        var endRecord = startRecord + app.recordsPerPage;
+        var record = names.slice(startRecord, endRecord);
+        var table = document.getElementById('mytable');
+        var hasHeading = true;
+        var bodyRows = table.querySelectorAll('tbody tr');
+
+        for (i = 0; i < bodyRows.length; i++) {
+            var tds = bodyRows[i].querySelectorAll('td');
+            // console.log(tds);               
+            for (p = 0; p < tds.length; p++) {
+                var obj = record[i];
+                tds[p].innerHTML = obj[Object.keys(record[i])[p]];
+            }
+        }
+
+    }
+
+
+    app.addTableRows = function (names, tableid, n) {
+
+        var tableHead = document.querySelector(tableid + " thead");
+        var tableBody = document.querySelector(tableid + " tbody");
+
+        var header = tableHead.insertRow(-1);
+
+        for (let i = 0; i < Object.keys(names[0]).length; i++) {
+            header.insertCell(i).innerHTML = Object.keys(names[0])[i];
+        }
+
+        for (let i = 0; i < n; i++) {
+            var tbodyrow = tableBody.insertRow(-1);
+            for (let j = 0; j < Object.keys(names[0]).length; j++) {
+                tbodyrow.insertCell(j).innerHTML = "";
+            }
+        }
+        app.getData(names, 1);
+    }
+
+
+
+
+    // })();
+</script>
+
+</html>
