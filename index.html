@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="/manifest.json">
+    <title>Service Delivery Network</title>
+
+    <!-- material stylesheet -->
+    <link rel="icon" type="image/png" href="/images/logo_components_color_2x_web_48dp.png">
+    <link rel="stylesheet" href="assets/css/material-components-web.css">    
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        
+    </style>
+
+</head>
+
+<body class="mdc-typography">
+    <!-- persistent drawer -->
+    <aside class="mdc-persistent-drawer">
+        <nav class="mdc-persistent-drawer__drawer">
+            <div class="mdc-persistent-drawer__toolbar-spacer mdc-toolbar">
+                <a class="mdc-list-item" href="/">
+                    <i class="material-icons mdc-list-item__start-detail" style="color:white;font-size:2.1rem;" aria-hidden="true">map</i>
+                    <span class="home">Locations Home</span>
+                </a>
+            </div>
+            <div class="mdc-list-group">
+                <nav class="mainMenu mdc-list">
+                    <div>
+
+                        <a class="mdc-list-item mdc-persistent-drawer--selected dashboardButton" href="#">
+                            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">dashboard</i>Dashboard
+                        </a>
+                    </div>
+                    <div>
+                        <a class="mdc-list-item  addLocationButton" href="#">
+                            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">add_circle</i>Add
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </aside>
+
+    <!-- toolbar in header -->
+    <div class="content">
+        <header class="mdc-toolbar mdc-toolbar--fixed">
+            <div class="mdc-toolbar__row">
+                <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+                    <button class="menu material-icons mdc-toolbar__menu-icon">menu</button>
+                    <span class="mdc-toolbar__title catalog-title">Locations List</span>
+                </section>
+                
+                <section class="mdc-toolbar__section mdc-toolbar__section--align-end" role="toolbar">
+                    <div class="indicator">
+                        <a href="#" class="material-icons mdc-toolbar__icon" aria-label="Connected to server" alt="Connected to server">signal_wifi</a>
+                    </div>
+                    <div class="userIcon">
+                        <div aria-label="user" class="material-icons mdc-toolbar__icon">account_circle</div>
+                    </div>
+                    <div>
+                        <a href="#" class="material-icons mdc-toolbar__icon toggle" aria-label="More" alt="More">more_vert</a>
+                    </div>
+                    <div class="mdc-menu-anchor">
+                        <div class="mdc-simple-menu" tabindex="-1" id="demo-menu">
+                            <ul class="mdc-simple-menu__items mdc-list" role="menu" aria-hidden="true" style="transform: scale(1, 1);">
+                                <li class="mdc-list-item" role="menuitem" tabindex="0" style="transition-delay: 0.069s;">Back</li>
+                                <li class="mdc-list-item" role="menuitem" tabindex="0" style="transition-delay: 0.124s;">Forward</li>
+                                <li class="mdc-list-item" role="menuitem" tabindex="0" style="transition-delay: 0.179s;">Reload</li>
+                                <li class="mdc-list-divider" role="separator"></li>
+                                <li class="mdc-list-item" role="menuitem" tabindex="0" style="transition-delay: 0.236s;">Save As...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+            
+        </header>
+
+        <main class="main" style="padding:10px; padding-top:60px;">
+            <h3>All Service center contact matrix</h3>
+            <div class="mdc-text-field mdc-text-field--box mdc-text-field--fullwidth  ">
+                <input id="search-box" class="mdc-text-field__input" type="text" placeholder="search" aria-label="search">
+                <div class="mdc-text-field__bottom-line" style="transform-origin: 391px center"></div>
+            </div>
+            <table class="mdc-data-table mdc-js-data-table mdc-shadow--2dp" id="locations-table">
+                <thead>
+                    <tr>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric mdc-data-table__header--sorted-ascending">Code</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Name</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Address</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Locality</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">State</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Postal code</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Primary Phone</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Additional phones</th>
+                        <th data-sort="0" class="mdc-data-table__cell--non-numeric">Website</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot>
+                   <tr>
+                       <th colspan="9"><div id="buttonList" ></div></th>
+                   </tr>
+                </tfoot>
+            </table>
+
+
+            <!-- <div class="mdc-grid-list mdc-grid-list--tile-aspect-1x1">
+                <ul class="mdc-grid-list__tiles dashboard">
+
+
+
+
+                </ul>
+            </div> -->
+
+        </main>
+
+       <!-- //////////////////////////////////////////////// -->
+
+    </div>
+</body>
+
+<script src="assets/js/material-components-web.js"></script>
+<script>
+    window.mdc.autoInit();
+</script>
+<script src="app.js"></script>
+
+</html>
